@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+
+}
+body{
+    background-color: black;
+    background-image:url("Portfolio/King the land.jpg");
+    color: antiquewhite;
+}
+.banner{
+background: linear-gradient(90deg, #181818 0, hsla(0, 0%, 9%, .987) 1.62%, hsla(0, 0%, 9%, .951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%),
+url="C:\Users\kalya\OneDrive\Desktop\King the land.jpg";
+background-position-x: 50%;
+background-position-y:center;
+background-size: cover;
+max-width: 112%;
+left: -5vw;
+right: -6%;
+background-repeat: no-repeat;
+height: 200vh;
+}
+.bannercontent .bannertitle img{
+    object-fit: contain;
+    max-width: 60%;
+}
+.bannercontent{
+    padding: 30% 10%;
+}
+.bannercontent .bannertitle h1{
+font-size: 50px;
+padding: 10px 0px;
+}
+.bannercontent .bannertitle h3{
+    color: #a3a3a3;
+    padding: 2% 0%;
+    font-weight: 400;
+    font-size: 20px;
+}
+.bannercontent .bannertitle span{
+    padding: 0 5px;
+
+}
+.rating{
+
+    padding: 4px 8px;
+    border: 1px solid #a3a3a3;
+}
+.bannercontent .bannertitle p{
+    max width: 25%;
+
+}
