@@ -6,30 +6,78 @@
 }
 body{
     background-color: black;
-    background-image:url("Portfolio/King the land.jpg");
+    background-image:url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834&quot;");
     color: antiquewhite;
 }
+img{
+    margin-left: 20px;
+    margin-top: 50px;
+    height: 100px;
+}
+
+nav .logo img{
+    object-fit:contain;
+    max width: 25%;
+    
+}
+nav{
+    display: flex;
+    padding: 0px 20px;
+    justify-content: space-between;
+}
+    nav .action{
+        display: flex;
+        margin: 10px 20px;
+
+    }
+    nav .action .SIGNUP{
+        background-color: red;
+        padding: 2px 4px;
+        border: none
+        border-radius: 2px;
+        cursor:pointer;
+        color: #aaa;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: Arial,Helvetica,sans-serif;
+        margin: 0 10px;
+    }
+    nav .action .SIGNUP:hover{
+        background-color: aliceblue;
+        color: #111;
+        transition: 0.8ms;
+    }
+    nav .action .LOGIN{
+        background: transparent;
+        color: #fff;
+        padding: 2px 4px;
+        border: 2px solid#fff;
+        border-radius : 2px;
+
+    }
+        nav .action .LOGIN:hover{
+            background-color: aliceblue;
+            color: #111;
+            transition: 0.8ms;
+    }
 .banner{
-background: linear-gradient(90deg, #181818 0, hsla(0, 0%, 9%, .987) 1.62%, hsla(0, 0%, 9%, .951) 3.1%, hsla(0, 0%, 9%, .896) 4.5%, hsla(0, 0%, 9%, .825) 5.8%, hsla(0, 0%, 9%, .741) 7.06%, hsla(0, 0%, 9%, .648) 8.24%, hsla(0, 0%, 9%, .55) 9.42%, hsla(0, 0%, 9%, .45) 10.58%, hsla(0, 0%, 9%, .352) 11.76%, hsla(0, 0%, 9%, .259) 12.94%, hsla(0, 0%, 9%, .175) 14.2%, hsla(0, 0%, 9%, .104) 15.5%, hsla(0, 0%, 9%, .049) 16.9%, hsla(0, 0%, 9%, .013) 18.38%, hsla(0, 0%, 9%, 0) 20%),
-url="C:\Users\kalya\OneDrive\Desktop\King the land.jpg";
-background-position-x: 50%;
-background-position-y:center;
+background: linear-gradient(0deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),
+url="https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABeqU5y13eHjQ6rfOYnpZUi3Rs_tf8KhstGfq_LmpqDzeR0UmZ_Op7pNso4OFiL97UO-hwXayjoAue7TL_Okys9Q280u7XZJpbOle.jpg?r=834";
+background-position: center center;
 background-size: cover;
-max-width: 112%;
-left: -5vw;
-right: -6%;
 background-repeat: no-repeat;
-height: 200vh;
+max-width: 25%;
+height: 400px;
 }
 .bannercontent .bannertitle img{
     object-fit: contain;
-    max-width: 60%;
+    max-width: 100%;
 }
 .bannercontent{
     padding: 30% 10%;
 }
 .bannercontent .bannertitle h1{
-font-size: 50px;
+font-size: 40px;
 padding: 10px 0px;
 }
 .bannercontent .bannertitle h3{
